@@ -5,11 +5,11 @@ Tip and tricks:
 
 Repo init command:
 
-	repo init -u https://github.com/ezio84/abc_manifest.git -b o2
+	repo init -u https://github.com/anirudhgupta109/abc_manifest.git -b o2
 
 Sync source (for future syncs, if you have errors, try "repo sync --force-sync")
 
-	repo sync
+	repo sync --force-sync -c
 
 To build:
 
