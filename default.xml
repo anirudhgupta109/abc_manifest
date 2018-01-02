@@ -14,6 +14,8 @@
            fetch="https://github.com/ezio84/" />
   <remote name="mohican"
            fetch="https://github.com/mohican16/" />
+  <remote name="anirudh"
+           fetch="https://github.com/anirudhgupta109/" />
   <remote name="substratum"
            fetch="https://github.com/substratum/" />
 
@@ -35,18 +37,18 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="abc_manifest" remote="mohican" revision="o2" />
+  <project path="manifest" name="abc_manifest" remote="anirudh" revision="o2" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o2" />
   <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o2" />-->
   <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o2" />
   <!-- <project path="external/wpa_supplicant_8" name="abc_external_wpa_supplicant_8" groups="pdk" remote="abc" revision="o2" />-->
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o2" />
-  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="anirudh" revision="o2" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/rs" name="abc_frameworks_rs" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/support" name="abc_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
-  <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="abc" revision="o2" />
+  <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="anirudh" revision="o2" />
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o2" />
@@ -57,7 +59,7 @@
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/PhoneCommon" name="abc_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
-  <project path="packages/apps/Settings" name="abc_packages_apps_Settings" groups="pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Settings" name="abc_packages_apps_Settings" groups="pdk-fs" remote="anirudh" revision="o2" />
   <project path="packages/apps/SlimRecents" name="abc_packages_apps_SlimRecents" remote="abc" revision="o2" />
   <project path="packages/inputmethods/LatinIME" name="abc_packages_inputmethods_LatinIME" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
@@ -70,7 +72,7 @@
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o2" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
-  <project path="vendor/nexus" name="abc_vendor_nexus" remote="mohican" revision="o2" />
+  <project path="vendor/nexus" name="abc_vendor_nexus" remote="anirudh" revision="o2" />
 
     <!-- Substratum
   <project path="packages/services/ThemeInterfacer" name="interfacer" remote="substratum" revision="n-rootless" />-->
